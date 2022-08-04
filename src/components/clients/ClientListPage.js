@@ -91,6 +91,7 @@ function ClientListPage() {
                             {filteredClients.length} / {clients.length} Clients(s)
                         </Typography>
                     </TableContainer>
+
                 </CardContent>
             </Card>
 

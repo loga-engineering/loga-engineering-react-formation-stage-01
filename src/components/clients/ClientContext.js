@@ -10,6 +10,7 @@ export const ClientContext = createContext({
     filter: '',
     filteredClients: [],
     setFilter: (filter) => {},
+    posts: [],
 });
 
 export const useClientContext = () => useContext(ClientContext);
@@ -25,11 +26,13 @@ export default function ClientProvider({children}) {
     const [filter, setFilter] = useState('');
     const [filteredClients, setFilteredClients] = useState(clients);
 
+
     useEffect(() => {
         const _filter = filter.toLowerCase();
         const _filteredClients = clients.filter(client => match(client, _filter));
         setFilteredClients(_filteredClients);
     }, [filter, clients]);
+
 
     const addClient = (client) => {
         client = {...client, id: new Date().getTime()}
