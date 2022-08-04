@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import AppLayout from "../layout/AppLayout";
 import {Button, Card, CardActions, CardContent, CardHeader, Stack, TextField} from "@mui/material";
 import {useNavigate, useParams} from "react-router-dom";
+import {ClientContext, useClientContext} from "./ClientContext";
 
-function ClientDetailPage({clients}) {
+function ClientDetailPage() {
+
+    const {clients} = useClientContext();
 
     const {id} = useParams();
     const navigate = useNavigate();

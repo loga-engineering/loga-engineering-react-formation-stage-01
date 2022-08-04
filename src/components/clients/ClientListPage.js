@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import AppLayout from "../layout/AppLayout";
 import {
     Button,
@@ -17,25 +17,14 @@ import {
 
 import {Clear, Delete, Edit, Info, Search} from "@mui/icons-material";
 import {Link} from "react-router-dom";
+import {useClientContext} from "./ClientContext";
 
-const match = (client, filter) => {
-    const filterBase = (client.firstName + client.lastName + client.id + client.address).toLowerCase();
-  return filterBase.indexOf(filter) >= 0;
-}
+function ClientListPage() {
 
-function ClientListPage({clients, deleteClient}) {
-
-    const [filter, setFilter] = useState('');
-    const [filteredClients, setFilteredClients] = useState(clients);
+    const {clients, deleteClient, filter, filteredClients, setFilter} = useClientContext();
 
     const [idToDelete, setIdToDelete] = useState();
     const [open, setOpen] = useState(false);
-
-    useEffect(() => {
-        const _filter = filter.toLowerCase();
-        const _filteredClients = clients.filter(client => match(client, _filter));
-        setFilteredClients(_filteredClients);
-    }, [filter]);
 
 
     const handleClose = () => setOpen(false);

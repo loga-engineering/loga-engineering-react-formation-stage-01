@@ -9,39 +9,27 @@ import UpdateClientPage from "./components/clients/UpdateClientPage";
 import ClientRouter from "./components/clients/ClientRouter";
 import UsersList from "./components/users/UsersList";
 import UserDetailPage from "./components/users/UserDetailPage";
+import TestContextPage from "./components/test-context/TestContextPage";
+import ClientProvider from "./components/clients/ClientContext";
 
 
 export default function App() {
 
-    const [clients, setClients] = useState([]);
-
-    const addClient = (client) => {
-        client = {...client, id: new Date().getTime()}
-        console.log(client);
-        setClients([...clients, client]);
-    }
-
-    const updateClient = (_client) => {
-        const _clients = clients.map(client => client.id === _client.id ? _client : client);
-        setClients(_clients);
-    }
-
-    const deleteClient = (id) => {
-        const _clients = clients.filter(client => client.id !== id);
-        setClients(_clients);
-    }
-
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path={'/'} element={<HomePage/>}/>
-                <Route path={'clients'} element={<ClientListPage clients={clients} deleteClient={deleteClient} />}/>
-                <Route path={'clients/:id'} element={<ClientDetailPage clients={clients} />}/>
-                <Route path={'clients/new'} element={<CreateClientPage addClient={addClient} />}/>
-                <Route path={'clients/update/:id'} element={<UpdateClientPage clients={clients} updateClient={updateClient}/>}/>
-                <Route path={'users'} element={<UsersList/>}/>
-                <Route path={'users/:id'} element={<UserDetailPage/>}/>
-            </Routes>
-        </BrowserRouter>
+        <ClientProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/'} element={<HomePage/>}/>
+                    <Route path={'clients'} element={<ClientListPage/>}/>
+                    <Route path={'clients/:id'} element={<ClientDetailPage/>}/>
+                    <Route path={'clients/new'} element={<CreateClientPage/>}/>
+                    <Route path={'clients/update/:id'}
+                           element={<UpdateClientPage/>}/>
+                    <Route path={'users'} element={<UsersList/>}/>
+                    <Route path={'users/:id'} element={<UserDetailPage/>}/>
+                    <Route path={'context'} element={<TestContextPage/>}/>
+                </Routes>
+            </BrowserRouter>
+        </ClientProvider>
     )
 }
