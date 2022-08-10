@@ -1,5 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {createContext} from "react";
+import {findAll} from "../client.service";
 
 
 export const ClientContext = createContext({
@@ -26,6 +27,10 @@ export default function ClientProvider({children}) {
     const [filter, setFilter] = useState('');
     const [filteredClients, setFilteredClients] = useState(clients);
 
+    useEffect(() => {
+        findAll()
+            .then(clients => setClients(clients));
+    }, []);
 
     useEffect(() => {
         const _filter = filter.toLowerCase();

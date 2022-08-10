@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import * as Yup from 'yup';
 import {Button, Card, CardActions, CardContent, CardHeader, Stack, TextField} from "@mui/material";
-import AppLayout from "../layout/AppLayout";
+import AppLayout from "../../layout/AppLayout";
 import {useNavigate} from "react-router-dom";
 import {useClientContext} from "./ClientContext";
 import {Form, FormikContext, FormikProvider, useFormik} from "formik";

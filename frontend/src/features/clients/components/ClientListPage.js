@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import AppLayout from "../layout/AppLayout";
+import AppLayout from "../../layout/AppLayout";
 import {
     Button,
     Card,

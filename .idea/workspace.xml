@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2254f124-5d01-458b-9e53-5154d04f1034" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/accounts/account.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/accounts/account.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/db/init.db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/clients/client.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/service.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/formation-stage-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formation-stage-01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientDetailPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientListPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/CreateClientPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/TestInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clients/UpdateClientPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/AppLayout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/test-context/TestContextPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UserDetailPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DAHCjEz9bookPQxV6zujtDF4ym" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220810_0001" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/features/clients/components" />
+      <recent name="$PROJECT_DIR$/backend/src/clients" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backend/src/server.js" working-dir="$PROJECT_DIR$/backend/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2254f124-5d01-458b-9e53-5154d04f1034" name="Changes" comment="" />
+      <created>1660134848879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660134848879</updated>
+      <workItem from="1660134851815" duration="7037000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

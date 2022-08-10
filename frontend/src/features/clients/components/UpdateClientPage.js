@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Button, Card, CardActions, CardContent, CardHeader, Stack, TextField} from "@mui/material";
-import AppLayout from "../layout/AppLayout";
+import AppLayout from "../../layout/AppLayout";
 import {useNavigate, useParams} from "react-router-dom";
 import {useClientContext} from "./ClientContext";
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppBar, Box, Button, Container, Toolbar, Typography, Link as MuiLink} from "@mui/material";
 import {Link} from "react-router-dom";
-import {useClientContext} from "../clients/ClientContext";
+import {useClientContext} from "../clients/components/ClientContext";
 
 const menu = [
     {label: 'Clients', link: '/clients'},

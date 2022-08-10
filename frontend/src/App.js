@@ -1,16 +1,16 @@
 import React, {useState} from "react";
 
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import HomePage from "./components/HomePage";
-import ClientListPage from "./components/clients/ClientListPage";
-import ClientDetailPage from "./components/clients/ClientDetailPage";
-import CreateClientPage from "./components/clients/CreateClientPage";
-import UpdateClientPage from "./components/clients/UpdateClientPage";
-import ClientRouter from "./components/clients/ClientRouter";
-import UsersList from "./components/users/UsersList";
-import UserDetailPage from "./components/users/UserDetailPage";
-import TestContextPage from "./components/test-context/TestContextPage";
-import ClientProvider from "./components/clients/ClientContext";
+import HomePage from "./features/HomePage";
+import ClientListPage from "./features/clients/components/ClientListPage";
+import ClientDetailPage from "./features/clients/components/ClientDetailPage";
+import CreateClientPage from "./features/clients/components/CreateClientPage";
+import UpdateClientPage from "./features/clients/components/UpdateClientPage";
+import ClientRouter from "./features/clients/components/ClientRouter";
+import UsersList from "./features/users/UsersList";
+import UserDetailPage from "./features/users/UserDetailPage";
+import TestContextPage from "./features/test-context/TestContextPage";
+import ClientProvider from "./features/clients/components/ClientContext";
 
 
 export default function App() {
