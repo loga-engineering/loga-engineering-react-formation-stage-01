@@ -8,11 +8,11 @@ const menu = [
     {label: 'Nouveau', link: '/clients/new'},
     {label: 'Utilisateurs', link: '/users'},
     {label: 'Context', link: '/context'},
+    {label: 'Posts', link: '/posts'},
+    {label: 'Todos', link: '/todos'},
 ]
 
 function AppLayout({children}) {
-
-    const {filteredClients} = useClientContext();
 
     return (
         <Box>

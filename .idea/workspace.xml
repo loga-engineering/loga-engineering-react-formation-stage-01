@@ -1,46 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2254f124-5d01-458b-9e53-5154d04f1034" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/accounts/account.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/accounts/account.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/clients/client.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/init.db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/clients/client.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/shared/service.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/formation-stage-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formation-stage-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientDetailPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientListPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/ClientRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/CreateClientPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/TestInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/UpdateClientPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/AppLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test-context/TestContextPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UserDetailPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+    <list default="true" id="2254f124-5d01-458b-9e53-5154d04f1034" name="Changes" comment="- move frontend content,&#10;- create backend project,&#10;  - add express,&#10;  - add sequelize,&#10;- All API from frontend">
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/posts/PostPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/todos/TodoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/todos/todo.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/todos/todo.store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/loga.hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/store.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/layout/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/layout/AppLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/shared/service.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/shared/service.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +36,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="sidaty.koureichy@gmail.com" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="loga-prod" />
+    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="Loga Prod" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="662759365505" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220810_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220819_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/features" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/features" />
       <recent name="$PROJECT_DIR$/backend/src" />
       <recent name="$PROJECT_DIR$/backend" />
     </key>
@@ -101,7 +88,17 @@
       <option name="presentableId" value="Default" />
       <updated>1660134848879</updated>
       <workItem from="1660134851815" duration="7037000" />
+      <workItem from="1660148403932" duration="217000" />
+      <workItem from="1660905213744" duration="5800000" />
     </task>
+    <task id="LOCAL-00001" summary="- move frontend content,&#10;- create backend project,&#10;  - add express,&#10;  - add sequelize,&#10;- All API from frontend">
+      <created>1660148523796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660148523796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +114,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- move frontend content,&#10;- create backend project,&#10;  - add express,&#10;  - add sequelize,&#10;- All API from frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="- move frontend content,&#10;- create backend project,&#10;  - add express,&#10;  - add sequelize,&#10;- All API from frontend" />
   </component>
 </project>
